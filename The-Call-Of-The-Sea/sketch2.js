@@ -42,12 +42,12 @@ function setup(){
   boat = createSprite(innerWidth/2+500,innerHeight/4);
   boat.addImage(boatImg);
   boat.scale = innerWidth/1200;
-  boat.debug=true
+  //boat.debug=true
   boat.setCollider("rectangle",0,0,90,100);
   hook = createSprite(innerWidth/2+1000,innerHeight/2 );
   hook.addImage(hookImg);
   hook.scale = innerWidth/10500;
-  hook.debug=true
+  //hook.debug=true
 
   line1 = createSprite(innerWidth/2,innerHeight/4,innerWidth,5);
   line1.visible = false;
