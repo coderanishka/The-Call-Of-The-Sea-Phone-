@@ -1,7 +1,7 @@
 function spawnFishL(){
-        if (frameCount%120===0){
+        if (frameCount%60===0){
           fishL = createSprite(-20,random(400,innerHeight-100));
-          fishL.velocityX = 27;
+          fishL.velocityX = 37;
           fishL.scale = 0.2;
           fishL.lifetime = 1000;
           var rand = Math.round(random(1,6));
@@ -34,9 +34,9 @@ function spawnFishL(){
         
        
         function spawnFishR(){
-         if (frameCount%100===0){
+         if (frameCount%50===0){
            fishR = createSprite(5100,random(400,innerHeight-100));
-           fishR.velocityX = -27;
+           fishR.velocityX = -37;
            fishR.scale = 0.2;
            fishR.lifetime = 1000;
        
@@ -65,21 +65,21 @@ function spawnFishL(){
         }
         
          function spawnShark(){
-          if (frameCount%1000===0){
+          if (frameCount%800===0){
            shark = createSprite( innerWidth/2,height/2+height/3);
            shark.addImage(sharkImg);
            shark.scale = innerWidth/8500;
            shark.setCollider("circle",-2250,450,200);
-           shark.velocityX = -18;
+           shark.velocityX = -28;
            shark.lifetime = 1000;
            SharkGroup.add(shark);
           }      
          }
         
         function spawnTrashL(){
-         if (frameCount%60===0){
+         if (frameCount%30===0){
            trashL = createSprite(-10,random(400,innerHeight-100));
-           trashL.velocityX = 22;
+           trashL.velocityX = 32;
            trashL.scale = 0.1;
            trashL.lifetime = 800;
        
@@ -105,9 +105,9 @@ function spawnFishL(){
         }
        
         function spawnTrashR(){
-         if (frameCount%100===0){
+         if (frameCount%50===0){
            trashR = createSprite(5100,random(400,innerHeight-100));
-           trashR.velocityX = -28;
+           trashR.velocityX = -38;
            trashR.scale = 0.1;
            trashR.lifetime = 800;
        
