@@ -91,7 +91,7 @@ function draw(){
   
 
   hook.x = boat.x - 150;
-
+  line(hook.x,boat.y,hook.x,hook.y);
   
   if (keyCode === UP_ARROW && hook.y <innerHeight){
     hook.y-=10;
