@@ -1,5 +1,5 @@
 function spawnFishL(){
-        if (frameCount%60===0){
+        if (frameCount%20===0){
           fishL = createSprite(-20,random(400,innerHeight-100));
           fishL.velocityX = 37;
           fishL.scale = 0.2;
@@ -34,7 +34,7 @@ function spawnFishL(){
         
        
         function spawnFishR(){
-         if (frameCount%50===0){
+         if (frameCount%25===0){
            fishR = createSprite(5100,random(400,innerHeight-100));
            fishR.velocityX = -37;
            fishR.scale = 0.2;
@@ -77,7 +77,7 @@ function spawnFishL(){
          }
         
         function spawnTrashL(){
-         if (frameCount%30===0){
+         if (frameCount%15===0){
            trashL = createSprite(-10,random(400,innerHeight-100));
            trashL.velocityX = 32;
            trashL.scale = 0.1;
@@ -105,7 +105,7 @@ function spawnFishL(){
         }
        
         function spawnTrashR(){
-         if (frameCount%50===0){
+         if (frameCount%17===0){
            trashR = createSprite(5100,random(400,innerHeight-100));
            trashR.velocityX = -38;
            trashR.scale = 0.1;
