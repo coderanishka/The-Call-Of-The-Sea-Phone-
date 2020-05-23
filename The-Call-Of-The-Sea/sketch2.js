@@ -82,7 +82,7 @@ function draw(){
   background(bgImg);
   edges=createEdgeSprites();
 
-  hook.collide(edges[3]);
+  hook.collide(edges[3]||edges[2]);
   
   hook.collide(line1);
   boat.collide(edges[1]||edges[4])
