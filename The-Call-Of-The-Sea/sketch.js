@@ -6,7 +6,7 @@ function preload(){
     game2Img = loadImage("game2.jpg");
 }
 function setup(){
-    createCanvas(innerWidth-60,innerHeight-60);
+    createCanvas(innerWidth-20,innerHeight-60);
     background(0,250,250);
     form1 = new Form();
     form1.display();
