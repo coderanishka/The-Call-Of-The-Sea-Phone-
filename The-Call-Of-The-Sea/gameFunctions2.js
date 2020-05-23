@@ -1,7 +1,7 @@
 function spawnFishL(){
         if (frameCount%20===0){
           fishL = createSprite(-20,random(400,innerHeight-100));
-          fishL.velocityX = 37;
+          fishL.velocityX = 35;
           fishL.scale = 0.2;
           fishL.lifetime = 1000;
           var rand = Math.round(random(1,6));
@@ -36,7 +36,7 @@ function spawnFishL(){
         function spawnFishR(){
          if (frameCount%25===0){
            fishR = createSprite(5100,random(400,innerHeight-100));
-           fishR.velocityX = -37;
+           fishR.velocityX = -35;
            fishR.scale = 0.2;
            fishR.lifetime = 1000;
        
@@ -79,7 +79,7 @@ function spawnFishL(){
         function spawnTrashL(){
          if (frameCount%15===0){
            trashL = createSprite(-10,random(400,innerHeight-100));
-           trashL.velocityX = 32;
+           trashL.velocityX = 27;
            trashL.scale = 0.1;
            trashL.lifetime = 800;
        
@@ -107,7 +107,7 @@ function spawnFishL(){
         function spawnTrashR(){
          if (frameCount%17===0){
            trashR = createSprite(5100,random(400,innerHeight-100));
-           trashR.velocityX = -38;
+           trashR.velocityX = -33;
            trashR.scale = 0.1;
            trashR.lifetime = 800;
        
