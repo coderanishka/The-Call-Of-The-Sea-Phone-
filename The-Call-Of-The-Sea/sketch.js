@@ -1,3 +1,7 @@
+// Please note that this game will only work properply on a mobile, not on a computer.
+// But the other link will work properly on a computer, not on a mobile.
+
+
 var form1;
 
 function preload(){
